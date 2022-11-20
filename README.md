@@ -3,10 +3,12 @@ AI-powered Nutrition Analyzer for Fitness Enthusiasts
 
 Project Title : AI-powered Nutrition Analyzer for Fitness Enthusiasts
 
-Team : Madhu Mitha R [Team Leader]
-       Kandula Venkata Bhargavi
-       Nithya Ashika S
-       Prathipati Varsha
+Team ID : PNT2022TMID28271
+
+Team : Madhu Mitha R [Team Leader]                  
+       Kandula Venkata Bhargavi                                                             
+       Nithya Ashika S                                 
+       Prathipati Varsha                                                                      
 
 Industry Mentor Name : Sri Tulasi
 
