@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+    <style>
+        .bar {
+            margin: 0px;
+            padding: 20px;
+            background-color: white;
+            opacity: 0.6;
+            color: rgb(54, 54, 54);
+            border-radius: 20px;
+            font-size: 25px;
+        }
+
+        .infoDiv {
+            padding: 20px;
+            background-color: #61B0B7;
+            width: 50%;
+            color: rgb(54, 54, 54);
+            border-radius: 20px;
+
+            transform: translate(45%, 20%);
+
+        }
+
+        a {
+            color: whitesmoke;
+            float: right;
+            text-decoration: none;
+            font-style: normal;
+            padding-right: 20px;
+        }
+
+        a:hover {
+            background-color: black;
+            color: white;
+            border-radius: 15px;
+            font-size: 30px;
+            padding-left: 10px;
+        }
+
+        header {
+            margin: 0px;
+            z-index: 1;
+            position: static;
+            background-color: #0583D2;
+            color: whitesmoke;
+            box-shadow: 0px 8px 8px rgba(213, 213, 213, 0.565);
+            overflow: auto;
+            padding-left: 20px;
+            width: 100%;
+            height: 13%;
+            text-align: center;
+        }
+
+        section {
+
+            /* The image used */
+            background-color: #b8e3ff44;
+            /* Add the blur effect */
+
+            /* Full height */
+            height: 87%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+
+        .topnav-right a {
+            float: left;
+            color: whitesmoke;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 22px;
+            border-radius: 20px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .topnav-right a:hover {
+            background-color: rgba(19, 41, 151, 0.385);
+            color: whitesmoke;
+        }
+
+        .topnav-right a.active {
+            background-color: #16558F;
+            color: whitesmoke;
+        }
+
+        .topnav-right {
+            float: right;
+            padding-right: 100px;
+        }
+
+        .nutritionAnalysis {
+            width: 50%;
+            float: left;
+            font-size: 28px;
+            font-weight: 600;
+            color: whitesmoke;
+            text-align: left;
+            align-content: center;
+            padding-top: 1%;
+            padding-left: 5%;
+        }
+
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url("https://i.pinimg.com/originals/be/21/1a/be211ad5043a8d05757a3538bdd8f450.jpg");
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--Brian Tracy-->
+
+    <header>
+        <div class="nutritionAnalysis">
+            Nutrtion Image Analysis
+        </div>
+        <div class="topnav-right" style="padding-top:0.5%;">
+            <a class="active" href="{{ url_for('home')}}">Home</a>
+            <a href="{{ url_for('image1')}}">Classify</a>
+        </div>
+    </header>
+    <section>
+        <div class="infoDiv">
+
+            <p style="font-size:24px;color: white;">Food is essential for human life and has been the concern of
+                many healthcare conventions. Nowadays new dietary assessment
+                and nutrition analysis tools enable more opportunities to help
+                people understand their daily eating habits, exploring nutrition
+                patterns and maintain a healthy diet.Nutritional analysis is the
+                process of determining the nutritional content of food. It is a
+                vital part of analytical chemistry that provides information about
+                the chemical composition, processing, quality control and contamination
+                of food. It ensures compliance with trade and food laws.</p>
+
+        </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
